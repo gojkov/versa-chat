@@ -1,6 +1,6 @@
 <template>
   <div class="chat container">
-    <h2 class="center teal-text">Versa Chat</h2>
+    <h2 class="rocksalt-chat center">VersaChat</h2>
     <div class="card">
       <div class="card-content">
         <ul class="messages" v-chat-scroll>
@@ -57,6 +57,12 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway|Rock+Salt&display=swap');
+
+.rocksalt-chat {
+  font-family: 'Rock Salt', cursive;
+  color: black;
+}
 
 .chat h2 {
   font-size: 2.6em;
@@ -85,4 +91,5 @@ export default {
 .messages::-webkit-scrollbar-thumb {
   background: #aaa;
 }
+
 </style>

@@ -2,7 +2,7 @@
   <div class="welcome container">
     <div class="card">
       <div class="card-content center-align">
-        <h2 class="teal-text">Welcome</h2>
+        <h2 class="rocksalt">WELCOME</h2>
         <form @submit.prevent="enterChat">
             <label for="name">Enter your name:</label>
             <input type="text" name="name" v-model="name">
@@ -37,6 +37,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway|Rock+Salt&display=swap');
+
 .welcome {
   max-width: 400px;
   margin-top: 100px;
@@ -47,5 +49,10 @@ export default {
 
 .welcome button {
   margin: 30px auto;
+}
+
+.rocksalt {
+  font-family: 'Raleway', sans-serif;
+  color: black;
 }
 </style>
