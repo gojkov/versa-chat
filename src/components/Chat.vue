@@ -40,7 +40,7 @@ export default {
 
     ref.onSnapshot(snapshot => {
       snapshot.docChanges().forEach(change => {
-        if (change.type == 'added') {
+        if (change.type === 'added') {
           let doc = change.doc
           this.messages.push({
             id: doc.id,

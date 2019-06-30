@@ -32,7 +32,7 @@ export default {
         this.newMessage = null
         this.feedback = null
       } else {
-        this.feedback = "You must enter a message in order to send one."
+        this.feedback = 'You must enter a message in order to send one.'
       }
     }
   }
