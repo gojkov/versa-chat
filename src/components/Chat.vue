@@ -1,6 +1,6 @@
 <template>
   <div class="chat container">
-    <h2 class="rocksalt-chat center">VersaChat</h2>
+    <h2 class="rocksalt-chat center">CodeChat</h2>
     <div class="card">
       <div class="card-content">
         <ul class="messages" v-chat-scroll>
